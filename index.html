@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Metadata -->
+    <title>Agen Resmi Lion Parcel Terdekat | Jasa Penggiriman Murah – HABIBI Cargo</title>
+    <meta name="description" content="HABIBI Cargo adalah Agen Resmi Lion Parcel yang menyediakan jasa pengiriman paket cepat, aman, dan tarif ekonomis. Kirim ke seluruh Indonesia tanpa batas berat. Cek tarif kirim di sini!">
+    <meta name="keywords" content="agen lion parcel, agen resmi lion parcel, lion parcel terdekat, jasa pengiriman murah, ekspedisi lion parcel, kirim paket cepat, logistik habibi, habibi logistics">
+    <meta name="author" content="HABIBI Logistics">
+
+    <!-- Fonts: Poppins (Headings) & Inter (Body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#e76f51', // Warna Utama sesuai request
+                        dark: '#1e293b',
+                        light: '#f8fafc',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        heading: ['Poppins', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* Custom Styles for Utilities */
+        .glass-nav {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(0,0,0,0.05);
+        }
+        
+        /* Accordion Transitions */
+        .accordion-content {
+            transition: max-height 0.3s ease-out, padding 0.3s ease;
+            max-height: 0;
+            overflow: hidden;
+        }
+        .accordion-content.active {
+            max-height: 200px; /* Cukup untuk teks pendek */
+        }
+        
+        /* Floating Button Animation */
+        @keyframes pulse-custom {
+            0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7); }
+            70% { box-shadow: 0 0 0 10px rgba(37, 211, 102, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+        }
+        .whatsapp-float {
+            animation: pulse-custom 2s infinite;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased">
+
+    <!-- 1. Navbar (Sticky) -->
+    <nav class="glass-nav fixed w-full top-0 z-50 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo -->
+                <div class="flex-shrink-0 flex items-center gap-2">
+                    <div class="bg-primary text-white w-10 h-10 rounded-lg flex items-center justify-center">
+                        <i class="fa-solid fa-box-open text-xl"></i>
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="font-heading font-bold text-xl leading-none text-dark">HABIBI <span class="text-primary">Logistics</span></span>
+                        <span class="text-[10px] font-medium text-slate-500 uppercase tracking-wider">Official Lion Parcel Agent</span>
+                    </div>
+                </div>
+
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex space-x-8 items-center">
+                    <a href="#home" class="text-sm font-medium text-slate-600 hover:text-primary transition-colors">Home</a>
+                    <a href="#about" class="text-sm font-medium text-slate-600 hover:text-primary transition-colors">Tentang Kami</a>
+                    <a href="#services" class="text-sm font-medium text-slate-600 hover:text-primary transition-colors">Layanan</a>
+                    <a href="#faq" class="text-sm font-medium text-slate-600 hover:text-primary transition-colors">FAQ</a>
+                    <a href="#contact" class="px-5 py-2.5 bg-primary hover:bg-red-600 text-white text-sm font-medium rounded-full transition-all shadow-md hover:shadow-lg">
+                        Hubungi Kami
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-slate-600 hover:text-primary focus:outline-none">
+                        <i class="fa-solid fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu Panel -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-slate-100 absolute w-full">
+            <div class="px-4 pt-2 pb-6 space-y-2">
+                <a href="#home" class="block px-3 py-2 text-base font-medium text-slate-700 hover:bg-slate-50 hover:text-primary rounded-md">Home</a>
+                <a href="#about" class="block px-3 py-2 text-base font-medium text-slate-700 hover:bg-slate-50 hover:text-primary rounded-md">Tentang Kami</a>
+                <a href="#services" class="block px-3 py-2 text-base font-medium text-slate-700 hover:bg-slate-50 hover:text-primary rounded-md">Layanan</a>
+                <a href="#faq" class="block px-3 py-2 text-base font-medium text-slate-700 hover:bg-slate-50 hover:text-primary rounded-md">FAQ</a>
+                <a href="#contact" class="block px-3 py-2 text-base font-medium text-primary font-bold hover:bg-slate-50 rounded-md">Kontak</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 2. Hero Section -->
+    <section id="home" class="relative pt-20 pb-16 md:pt-32 md:pb-24 overflow-hidden">
+        <!-- Background Image with Overlay -->
+        <div class="absolute inset-0 z-0">
+            <!-- URL Reverted: Menggunakan link spesifik permintaan user -->
+            <img src="https://i.ibb.co.com/DfwS4vrx/habibi-cargo-lion-parcel.jpg" alt="Habibi Cargo Lion Parcel Banner" class="w-full h-full object-cover object-center" onerror="this.src='https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80'">
+            <div class="absolute inset-0 bg-gradient-to-r from-slate-900/90 via-slate-900/70 to-transparent"></div>
+        </div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-2xl text-white">
+                <div class="inline-block px-3 py-1 mb-4 text-xs font-semibold tracking-wider text-white uppercase bg-primary rounded-full bg-opacity-90">
+                    Agen Resmi Terpercaya
+                </div>
+                <h1 class="font-heading text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+                    Kirim Cepat, Aman, dan Murah! <br>
+                    <span class="text-primary">Agen Resmi Lion Parcel.</span>
+                </h1>
+                <p class="text-lg md:text-xl text-slate-200 mb-8 leading-relaxed font-light">
+                    Mitra terpercaya Anda untuk pengiriman domestik dan internasional. Kami menjamin kecepatan, keamanan, dan harga yang kompetitif untuk paket Anda.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="https://wa.me/6282226285624?text=Halo%20Admin%20HABIBI%20Cargo%20%7C%20Official%20Lion%20Parcel%20Agent%2C%20saya%20ingin%20menanyakan%20tarif%20pengiriman%20dan%20bagaimana%20cara%20untuk%20melakukan%20pemesanan%20layanan%20pengiriman." target="_blank" class="px-8 py-4 bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/30 text-white font-semibold rounded-lg text-center transition-all">
+                        Konsultasi via WA
+                    </a>
+                </div>
+                
+                <!-- Trust Badges -->
+                <div class="mt-10 flex gap-6 items-center text-slate-300 text-sm">
+                    <div class="flex items-center gap-2">
+                        <i class="fa-solid fa-shield-halved text-primary"></i> Asuransi Paket
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i class="fa-solid fa-bolt text-primary"></i> Pengiriman Kilat
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i class="fa-solid fa-sack-dollar text-primary"></i> Hemat Ongkir
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Tentang Kami Section -->
+    <section id="about" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <!-- Image Side -->
+                <div class="relative order-2 md:order-1">
+                    <div class="absolute -top-4 -left-4 w-24 h-24 bg-primary/10 rounded-full blur-xl"></div>
+                    <div class="absolute -bottom-4 -right-4 w-32 h-32 bg-slate-200 rounded-full blur-xl"></div>
+                    <!-- URL Reverted: Menggunakan link spesifik permintaan user -->
+                    <img src="https://i.ibb.co.com/FqxgQDr3/lion-parcel-cargo.jpg" alt="Kantor Agen Lion Parcel" class="relative rounded-2xl shadow-2xl w-full object-cover h-[400px]" onerror="this.src='https://images.unsplash.com/photo-1566576912906-600aceebca9b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'">
+                    <div class="absolute bottom-6 left-6 bg-white p-4 rounded-xl shadow-lg max-w-[200px] border-l-4 border-primary">
+                        <p class="font-bold text-3xl text-dark">100%</p>
+                        <p class="text-sm text-slate-500">Agen Resmi Terverifikasi</p>
+                    </div>
+                </div>
+
+                <!-- Content Side -->
+                <div class="order-1 md:order-2">
+                    <span class="text-primary font-bold tracking-wider uppercase text-sm">Tentang Kami</span>
+                    <h2 class="font-heading text-3xl md:text-4xl font-bold text-dark mt-2 mb-6">HABIBI Cargo: Resmi, Cepat, dan Ramah di Lokasi Anda.</h2>
+                    <p class="text-slate-600 mb-6 leading-relaxed">
+                        Sebagai mitra resmi Lion Parcel, HABIBI Logistics hadir untuk memberikan solusi pengiriman barang yang tidak hanya cepat, tetapi juga memberikan rasa aman bagi setiap pelanggan. Kami berlokasi strategis untuk memudahkan Anda mengirim paket ke seluruh pelosok negeri maupun mancanegara.
+                    </p>
+                    
+                    <ul class="space-y-4">
+                        <li class="flex items-start gap-3">
+                            <div class="mt-1 w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
+                                <i class="fa-solid fa-check text-green-600 text-xs"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-dark">Keamanan Terjamin</h4>
+                                <p class="text-sm text-slate-500">Setiap paket ditangani dengan prosedur standar tinggi.</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <div class="mt-1 w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
+                                <i class="fa-solid fa-check text-green-600 text-xs"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-dark">Harga Kompetitif</h4>
+                                <p class="text-sm text-slate-500">Tarif hemat tanpa mengurangi kualitas layanan.</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <div class="mt-1 w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
+                                <i class="fa-solid fa-check text-green-600 text-xs"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-dark">Pelayanan Profesional</h4>
+                                <p class="text-sm text-slate-500">Tim kami siap membantu tracking dan info resi Anda.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Daftar Layanan / Produk -->
+    <section id="services" class="py-16 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <span class="text-primary font-bold tracking-wider uppercase text-sm">Layanan Kami</span>
+                <h2 class="font-heading text-3xl font-bold text-dark mt-2">Solusi Pengiriman Lengkap</h2>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <!-- Service 1: Domestik -->
+                <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow border border-slate-100 group">
+                    <div class="w-14 h-14 bg-red-50 text-primary rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-white transition-colors">
+                        <i class="fa-solid fa-plane-departure text-2xl"></i>
+                    </div>
+                    <h3 class="font-heading text-xl font-bold text-dark mb-3">Pengiriman Domestik</h3>
+                    <p class="text-slate-600 mb-6">
+                        Layanan pengiriman paket ke seluruh Indonesia via Udara dan Darat. Tersedia layanan ONEPACK (Besok Sampai), REGPACK (Reguler), dan JAGOPACK (Ekonomis). Jangkauan luas dari Sabang sampai Merauke.
+                    </p>
+                    <a href="#contact" class="text-primary font-semibold hover:text-red-700 inline-flex items-center gap-2">
+                        Kirim Sekarang <i class="fa-solid fa-arrow-right text-sm"></i>
+                    </a>
+                </div>
+
+                <!-- Service 2: Internasional -->
+                <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow border border-slate-100 group">
+                    <div class="w-14 h-14 bg-blue-50 text-blue-600 rounded-xl flex items-center justify-center mb-6 group-hover:bg-blue-600 group-hover:text-white transition-colors">
+                        <i class="fa-solid fa-earth-asia text-2xl"></i>
+                    </div>
+                    <h3 class="font-heading text-xl font-bold text-dark mb-3">Pengiriman Internasional</h3>
+                    <p class="text-slate-600 mb-6">
+                        Solusi kirim paket ke luar negeri (INTERPACK) dengan harga terjangkau dan proses yang mudah. Kami membantu pengurusan dokumen agar paket Anda sampai ke negara tujuan dengan aman dan efisien.
+                    </p>
+                    <a href="#contact" class="text-blue-600 font-semibold hover:text-blue-800 inline-flex items-center gap-2">
+                        Kirim Sekarang <i class="fa-solid fa-arrow-right text-sm"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. FAQ Section -->
+    <section id="faq" class="py-16 bg-white">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-10">
+                <h2 class="font-heading text-3xl font-bold text-dark">Pertanyaan Umum (FAQ)</h2>
+                <p class="text-slate-500 mt-2">Hal yang sering ditanyakan pelanggan kami.</p>
+            </div>
+
+            <div class="space-y-4">
+                <!-- FAQ Item 1 -->
+                <div class="border border-slate-200 rounded-lg overflow-hidden">
+                    <button class="faq-btn w-full px-6 py-4 text-left flex justify-between items-center bg-slate-50 hover:bg-slate-100 transition-colors focus:outline-none">
+                        <span class="font-semibold text-dark">Bagaimana cara cek resi pengiriman?</span>
+                        <i class="fa-solid fa-chevron-down text-slate-400 transition-transform duration-300"></i>
+                    </button>
+                    <div class="accordion-content bg-white">
+                        <div class="px-6 py-4 text-slate-600">
+                            Anda dapat melacak posisi paket Anda secara real-time melalui website resmi Lion Parcel atau aplikasi Lion Parcel dengan memasukkan nomor STT (Resi) yang kami berikan saat pengiriman.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="border border-slate-200 rounded-lg overflow-hidden">
+                    <button class="faq-btn w-full px-6 py-4 text-left flex justify-between items-center bg-slate-50 hover:bg-slate-100 transition-colors focus:outline-none">
+                        <span class="font-semibold text-dark">Apakah barang kiriman diasuransikan?</span>
+                        <i class="fa-solid fa-chevron-down text-slate-400 transition-transform duration-300"></i>
+                    </button>
+                    <div class="accordion-content bg-white">
+                        <div class="px-6 py-4 text-slate-600">
+                            Ya, Lion Parcel menyediakan opsi asuransi untuk perlindungan ekstra terhadap barang berharga Anda. Kami sangat menyarankan asuransi untuk barang elektronik atau dokumen penting.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="border border-slate-200 rounded-lg overflow-hidden">
+                    <button class="faq-btn w-full px-6 py-4 text-left flex justify-between items-center bg-slate-50 hover:bg-slate-100 transition-colors focus:outline-none">
+                        <span class="font-semibold text-dark">Apakah ada batas berat per paket?</span>
+                        <i class="fa-solid fa-chevron-down text-slate-400 transition-transform duration-300"></i>
+                    </button>
+                    <div class="accordion-content bg-white">
+                        <div class="px-6 py-4 text-slate-600">
+                            Secara umum tidak ada batas minimum, namun berat maksimum per koli (per potong) bervariasi tergantung layanan. Untuk kargo berat, kami menyediakan layanan BIGPACK dengan harga lebih ekonomis mulai dari 10kg.
+                        </div>
+                    </div>
+                </div>
+                 <!-- FAQ Item 4 -->
+                 <div class="border border-slate-200 rounded-lg overflow-hidden">
+                    <button class="faq-btn w-full px-6 py-4 text-left flex justify-between items-center bg-slate-50 hover:bg-slate-100 transition-colors focus:outline-none">
+                        <span class="font-semibold text-dark">Apakah bisa jemput paket ke rumah (Pick-up)?</span>
+                        <i class="fa-solid fa-chevron-down text-slate-400 transition-transform duration-300"></i>
+                    </button>
+                    <div class="accordion-content bg-white">
+                        <div class="px-6 py-4 text-slate-600">
+                            Tentu! Kami menyediakan layanan Free Pick-up untuk area sekitar lokasi agen kami. Silakan hubungi admin via WhatsApp untuk menjadwalkan penjemputan paket Anda.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Kontak & Lokasi -->
+    <section id="contact" class="py-16 bg-slate-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12">
+                <!-- Contact Form -->
+                <div>
+                    <span class="text-primary font-bold tracking-wider uppercase text-sm">Hubungi Kami</span>
+                    <h2 class="font-heading text-3xl font-bold mt-2 mb-6">Siap Mengirim Paket Anda?</h2>
+                    <p class="text-slate-400 mb-8">
+                        Kunjungi lokasi kami atau isi formulir di bawah ini untuk pertanyaan seputar tarif dan kemitraan korporat.
+                    </p>
+
+                    <form onsubmit="event.preventDefault(); alert('Terima kasih! Pesan Anda telah kami terima (Demo). Silakan hubungi WA untuk respon lebih cepat.');" class="space-y-4">
+                        <div>
+                            <label class="block text-sm font-medium text-slate-300 mb-1">Nama Lengkap</label>
+                            <input type="text" class="w-full px-4 py-3 rounded-lg bg-slate-800 border border-slate-700 text-white focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary" placeholder="Budi Santoso" required>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-slate-300 mb-1">Email / WhatsApp</label>
+                            <input type="text" class="w-full px-4 py-3 rounded-lg bg-slate-800 border border-slate-700 text-white focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary" placeholder="contoh@email.com atau 0812..." required>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-slate-300 mb-1">Pesan / Pertanyaan</label>
+                            <textarea rows="4" class="w-full px-4 py-3 rounded-lg bg-slate-800 border border-slate-700 text-white focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary" placeholder="Saya mau kirim paket ke Surabaya, berapa tarifnya?"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-primary hover:bg-red-600 text-white font-bold py-3 rounded-lg transition-colors">
+                            Kirim Pesan
+                        </button>
+                    </form>
+                    
+                    <div class="mt-8 flex gap-4 text-slate-400">
+                        <div class="flex items-center gap-2">
+                            <i class="fa-solid fa-phone text-primary"></i> 0822-2628-5624
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <i class="fa-solid fa-clock text-primary"></i> 08:00 - 21:00 WIB
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Google Maps -->
+                <div class="h-full min-h-[400px] bg-slate-800 rounded-2xl overflow-hidden shadow-xl border border-slate-700">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4457.299228449324!2d106.5954397!3d-6.179616900000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ff1ca28577b7%3A0xb3a00a042ae8e8b2!2sLION%20PARCEL%20Tangerang%20Taman%20Cibodas(Cargo%20Udara%20Laut%20Darat)!5e1!3m2!1sid!2sid!4v1767585285386!5m2!1sid!2sid" width="100%" height="100%" style="border:0; min-height: 450px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 text-slate-400 py-8 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <div class="mb-4">
+                <span class="font-heading font-bold text-xl text-white">HABIBI <span class="text-primary">Logistics</span></span>
+            </div>
+            <p class="text-sm mb-4">Agen Resmi Lion Parcel. Mengirim paket dengan hati ke seluruh dunia.</p>
+            <p class="text-xs">&copy; 2024 HABIBI Logistics. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- 7. Floating WhatsApp CTA -->
+    <a href="https://wa.me/6282226285624?text=Halo%20Admin%20HABIBI%20Cargo%20%7C%20Official%20Lion%20Parcel%20Agent%2C%20saya%20ingin%20menanyakan%20tarif%20pengiriman%20dan%20bagaimana%20cara%20untuk%20melakukan%20pemesanan%20layanan%20pengiriman." target="_blank" class="fixed bottom-6 right-6 z-50 bg-[#25D366] hover:bg-[#20bd5a] text-white w-16 h-16 rounded-full flex items-center justify-center shadow-lg transition-all hover:-translate-y-1 whatsapp-float" aria-label="Chat WhatsApp">
+        <i class="fa-brands fa-whatsapp text-4xl"></i>
+    </a>
+
+    <!-- JavaScript Interactions -->
+    <script>
+        // Mobile Menu Toggle
+        const btn = document.getElementById('mobile-menu-btn');
+        const menu = document.getElementById('mobile-menu');
+
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when clicking a link
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                menu.classList.add('hidden');
+            });
+        });
+
+        // Accordion Logic
+        const accordions = document.querySelectorAll('.faq-btn');
+
+        accordions.forEach(acc => {
+            acc.addEventListener('click', function() {
+                // Close others
+                accordions.forEach(other => {
+                    if (other !== this) {
+                        other.nextElementSibling.classList.remove('active');
+                        other.querySelector('i').style.transform = 'rotate(0deg)';
+                    }
+                });
+
+                // Toggle current
+                const content = this.nextElementSibling;
+                const icon = this.querySelector('i');
+                
+                content.classList.toggle('active');
+                
+                if (content.classList.contains('active')) {
+                    icon.style.transform = 'rotate(180deg)';
+                    // Set max-height dynamically for smooth animation
+                    content.style.maxHeight = content.scrollHeight + "px";
+                    content.style.padding = "0"; // Reset padding handling in CSS
+                } else {
+                    icon.style.transform = 'rotate(0deg)';
+                    content.style.maxHeight = "0";
+                }
+            });
+        });
+    </script>
+</body>
+</html>
